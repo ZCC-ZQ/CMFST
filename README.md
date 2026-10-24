@@ -53,6 +53,7 @@ The experiments are conducted on publicly available research datasets, including
 
 - **NCMMSC**
 - **ADReSSo**
+- **ADReSS**
 
 Due to data usage restrictions, the original datasets are **not included** in this repository. Please obtain the datasets from their official sources and organize the audio, transcript, label, and feature files according to the paths defined in `dataset_gate.py` and the corresponding training scripts.
 
@@ -131,4 +132,7 @@ The generated outputs depend on the configuration in the script, such as checkpo
 - Please do not upload private data, original speech recordings, or restricted-access datasets to a public repository.
 - Model checkpoints can be large. If needed, they may be released separately.
 - File paths in the scripts may need to be modified before running on a new machine.
+  
+## Supporting materials for the revised manuscript
 
+The tables, t-SNE visualizations, Figure 6 excerpt translations, and experimental configurations cited in the revised manuscript are indexed in [supporting_materials](supporting_materials/README.md). The three official-split checkpoints are `best_model/best_zh.pt` (NCMMSC), `best_model/best_model_en1.pt` (ADReSSo), and `best_model/best_model_adress.pt` (ADReSS). The original datasets require access approval from their respective providers and are not redistributed here.
